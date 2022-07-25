@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            background-color: red;
+            font-size: 50px;
+        }
+
+        .divChild > h1{
+             background-color: green;
+        }
+
+        .divsubchild > h1 {
+            background-color: blue;
+        }
+        .divDescendent {
+            background-color: aqua;
+            height: 900px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Universal Selector css apply to all content -->
+    <h2>Universal Selector</h2>
+    <p>I will win</p>
+
+    <!-- child selector symbol = > -->
+    <div class="divChild">
+        <h1>I m Lord Hell</h1>
+        <p>I will Kill u</p>
+        <div class="divsubchild">
+            <h1>I m Child</h1>
+        </div>
+    </div>
+    <div class="divDescendent">
+        <h1>i m super man</h1>
+        <h1>i m batman</h1>
+        <div class="divSubDesc">
+            <h1>i m spiderman</h1>
+        </div>
+        <h1>Hello world</h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li {
+            display: inline;
+        }
+
+        .div1 {
+             display: inline;
+            background-color: gray;
+            height: 300px;
+            width: 500px;
+        }
+
+        .div2{
+            display: inline-block;
+            background-color: red;
+            height: 200px;
+        }
+        .navbar li{
+            background-color: yellow;
+            height: 50px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 3 types -->
+    <!-- inline inline-block block -->
+
+    <!--  inline: takes the required width only, cannot set height and width -->
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Services</li>
+    </ul>
+
+    <div class="div1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum in voluptatibus explicabo et aliquam
+        recusandae minus magnam debitis provident rem accusamus, qui at unde voluptatem similique possimus quia. Quia.
+    </div>
+    <br><br>
+
+
+    <!-- inline-block: can set height and width, no line break -->
+    <div class="div2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati possimus officia illum nostrum, accusamus sed
+        beatae eum architecto nemo maiores aliquid unde dignissimos, ab totam dolorum harum doloremque velit
+        accusantium.
+    </div>
+
+
+    <!-- block: can sert height and width, takes full width, display content vertically, line-break -->
+    <ul class="navbar">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Gallery</li>
+    </ul>
+</body>
+
+</html>

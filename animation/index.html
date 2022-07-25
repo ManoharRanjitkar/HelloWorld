@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            transform: translate(500px, 600px)
+        }
+        .div2{
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            animation-name: animate;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes animate{
+            from{
+                transform: translate(0px);
+
+            }
+            to{
+                transform: translate(400px);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">translate</div>
+    <div class="div2">Animation Translate</div>
+</body>
+</html>

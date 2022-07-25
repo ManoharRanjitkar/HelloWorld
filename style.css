@@ -1,0 +1,21 @@
+h3 {
+   background-color: yellow;
+   font-size: 50px;
+   text-shadow: 10px 20px 5px red;
+}
+img{
+    height: 100px;
+    width:  100px;
+}
+.img2{
+    height: 200px;
+    width:  200px;
+    border-radius: 50%;
+    /* 10px horizontal 20px vertical 10px blur green color */
+    box-shadow: 10px 20px 10px black; 
+}
+.img3{
+    height: 300px;
+    width: 300px;
+    border-radius: 60%;
+}

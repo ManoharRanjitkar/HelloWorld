@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .productCard{
+         background-color: yellow;
+         overflow: hidden;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         box-shadow: 10px 10px 10px red;
+         height: 300px;
+         width: 300px;
+         border: 5px  solid black;
+        }
+        .productCard::before{
+            text-align: center;
+            width: 80%;
+            content: '20% off';
+            font-size: 30px;
+            background-color: blue;
+            transform: rotate(30deg);
+            position: relative;
+            left: 85px;
+            top: 30px;
+        }
+    </style>
+    
+</head>
+<body>
+        <div class="productCard">
+            <img class="img1"
+            src="data:image/jpeg;base64,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" alt="">
+            <br>
+            <h4>Product Name</h4><br>
+            <p>Rs. 42000</p>
+            
+        </div>
+</body>
+</html>

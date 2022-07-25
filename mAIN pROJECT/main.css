@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    height: 750px;
+    background-color: rgb(253,242,233);
+}
+
+
+.logo img {
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 300px;
+    height: 30px;
+    width: 200px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle {
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.middle li {
+    font-weight: bold;
+    font-size: 17px;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.middle button {
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+   padding: 10px 30px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.middle1{
+    display: flex;
+    justify-content: space-between;
+}
+.middle1 .first{
+    margin-top: 100px;
+    width: 600px;
+    margin-left: 60px;
+}
+.middle1 .second{
+    margin-right: 30px;
+}
+.middle1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.middle1 p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.customer1{
+    display: flex;
+}
+.first img{
+    margin-right: -20px;
+    border: 3px solid rgb(253,242,233);
+    border-radius: 30px;
+    height: 50px;
+}
+.button5{
+    display: flex;
+}
+.second img{
+    margin-right: 100px;
+    height: 600px;
+    width: 600px;
+}
+.button1 button{
+    font-size: 15px;
+    height: 50px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+   padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.customer1 p{
+    margin-left: 50px;
+    margin-top: 30px;
+   
+}
+.customer1 h5{
+    color: orange;
+    font-size: 15px;
+}
+.button2 button{
+    font-size: 15px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+   padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.container2{
+   
+    background-color: rgb(247,247,247);
+}
+.container2 h3{
+    text-align: center;
+    color: rgb(133, 125, 125);
+}
+.container2 img{
+    color: rgb(133, 125, 125);
+    margin: 10px;
+    height: 30px; 
+}
+.container2 .icons1{
+    
+   text-align: center;
+}
+.first1 {
+   margin-left: 200px;
+}
+.first1 h2{
+   color: orange;
+}
+.second2{
+    display: flex;
+}
+.firsth p{
+    font-size: 20px;
+}
+ .firsth{
+    margin-top: 100px;
+    width: 500px;
+   margin-left: 300px;
+}
+.firsth h1{
+    font-size: 60px;
+    color:rgb(133, 125, 125) ;
+}
+.second2 img{
+    margin-left: 200px;
+    height: 400px;
+    width: 200px;
+}
+.third3{
+    display: flex;
+}
+.third3 img{
+    margin-left: 300px;
+    margin-top: 100px;
+    height: 400px;
+    width: 200px;
+}
+.third3 .firsth{
+    margin-top: 200px;
+}
+.div1{
+    text-align: center;
+}
+.div1 h3{
+    color: orange;
+}
+.div1 h2{
+    font-size: 40px;
+}
+.boxmodel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backgroundimg1{
+    background-image: url("/mAIN pROJECT/img/meals/meal-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+}
+.backgroundimg2{
+    background-image: url("/mAIN pROJECT/img/meals/meal-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+}
+.box{
+    overflow: hidden;
+    position: relative;
+    transition: ease-in 0.5s;
+    height: 450px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgb(213, 206, 206);
+}
+.test1 h5{
+    background-color: lightgreen;
+    width: 100px;
+    border-radius: 20px;
+}
+.test1 h4{
+    color: rgb(146, 135, 135);
+    font-size: 20px;
+}
+.test1{
+    margin-left: 20px;
+    text-align: left;
+}
+
+.list1{
+    list-style: none;
+    justify-content: space-evenly;
+}
+.list1 h2{
+    margin-bottom: 10px;
+}
+.list1 li{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.tick{
+    color: orange;
+}
+.list1{
+    margin-left: 50px;
+}
+.box:hover{
+    transform: translateY(-9px);
+    transition: ease-in 0.1s;
+}
+.anchor{
+    font-size: 20px;
+    text-align: center;
+    color: orange;
+}
+.container3{
+    display: flex;
+    background-color:rgb(253,242,233) ;
+}
+.customer2{
+    display: flex;
+    
+}
+.first3 p{
+    font-size: 20px;
+}
+.first3 img{
+    flex-wrap: wrap;
+    border: 3px solid rgb(253,242,233);
+    border-radius: 30px;
+    height: 50px;
+}
+.block1 img{
+    
+    height: 170px;
+    width: 190px;
+}
+.customer3{
+    display: flex;
+}
+.block1{
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: 195px 195px 215px;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+}
+.first31{
+    display: flex;
+}
+.consumer{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.block1 > img:hover{
+     transform: scale(1.2);
+     transition: ease-in 0.5s;
+    
+}
+.container4{
+   background-color: rgb(247,247,247);
+}
+.percent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.starter{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+.complete{
+    position: relative;
+    overflow: hidden;
+    margin-left: 50px;
+    background-color: rgb(253,242,233);
+    height: 500px;
+    width: 350px;
+    text-align: left;
+}
+.percent h2{
+    text-align: center;
+    color: orange;
+}
+.percent h1{
+    font-size: 50px;
+    text-align: center;
+}
+.percent p {
+    color: rgb(134,111,111);
+    text-align: center;
+    font-size: 17px;
+}
+.percent li{
+    color: rgb(85,85,85);
+    margin-left: 30px;
+    list-style: none;
+    font-size: 17px;
+}
+.cross{
+    margin-left: 30px;
+    color: orange;
+}
+.percent button{
+    font-size: 15px;
+    height: 50px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+   padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 85px;
+}
+.container4 h3{
+    margin-left: 160px;
+    color: orange;
+}
+.head2{
+    margin-left: 160px;
+}
+.para{
+    text-align: center;
+    color:  rgb(85,85,85);
+}
+.complete::before{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+        text-align: center;
+    transform: rotate(45deg);
+    content: 'Best Value';
+    font-size: 15px;
+    background-color: rgb(255,212,59);
+    margin-left: 200px;
+    margin-top: 30px;
+}

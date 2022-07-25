@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <style>
+        .detailsContainer{
+            height: 400px;
+            width: 800px;
+            margin: 100px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            border-radius: 10px;
+        }
+        .information h1,h3,p{
+            color: white;
+
+        }
+        .img1{
+            padding: 30px;
+        }
+        .img1 img{
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="detailsContainer">
+        <div class="img1">        <img src="data:image/png;base64,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" alt="">
+</div>
+     <div class="information">
+        <h1>Project Name</h1>
+        <h3>rs.400</h3>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia vero quos quae, cumque aliquam est,
+            doloremque ut tempore, ratione voluptas quam. Eius esse optio non quos cum dolorum ipsa magni!
+        </p>
+        <button>Buy Now</button>
+     </div>
+        
+    </div>
+</body>
+
+</html>

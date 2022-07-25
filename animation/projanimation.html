@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        .navbar li{
+            list-style: none;
+            margin: 20px;
+        }
+        .container1{
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap; 
+
+        }
+        .productCard1{
+            transition: ease-in 0.5s;
+            height: 250px ;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid black;
+            box-shadow: 10px 10px 5px red;
+            margin: 20px;
+            margin-right: 10px;
+        }
+        .productCard1:hover{
+            transform: translateY(-10px);
+        }
+        .productCard1 img{
+            animation-name: img1;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes img1{
+            0%{
+                transform: scale(1);
+            }
+            25%{
+                transform: scale(1.1);
+            }
+            50%{
+                transform: scale(1);
+            }
+            75%{
+                transform: scale(1.1);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <li>Home</li>
+        <li>About</li>
+        <li>Products</li>
+        <li>Contact</li>
+    </div>
+
+    <h1 class="head1">
+        <u>Mobile</u>
+    </h1>
+    <div class="container1">
+        <div class="productCard1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxtZtNmKpq1050yO9CT5Ug6-mcXT9aWqv0M2OwZ8ZC&s" alt="">
+            <h4>Mobile</h4>
+            <p>Rs. 42000</p>
+            <button class="button"><a href="./project.html">view</a></button>
+        </div>
+        <div class="productCard1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxtZtNmKpq1050yO9CT5Ug6-mcXT9aWqv0M2OwZ8ZC&s" alt="">
+            <h4>Mobile</h4>
+            <p>Rs. 42000</p>
+            <button class="button">Add to cart</button>
+        </div>
+        <div class="productCard1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxtZtNmKpq1050yO9CT5Ug6-mcXT9aWqv0M2OwZ8ZC&s" alt="">
+            <h4>Mobile</h4>
+            <p>Rs. 42000</p>
+            <button class="button">Add to cart</button>
+        </div><div class="productCard1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxtZtNmKpq1050yO9CT5Ug6-mcXT9aWqv0M2OwZ8ZC&s" alt="">
+            <h4>Mobile</h4>
+            <p>Rs. 42000</p>
+            <button class="button">Add to cart</button>
+        </div><div class="productCard1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxtZtNmKpq1050yO9CT5Ug6-mcXT9aWqv0M2OwZ8ZC&s" alt="">
+            <h4>Mobile</h4>
+            <p>Rs. 42000</p>
+            <button class="button">Add to cart</button>
+        </div><div class="productCard1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxtZtNmKpq1050yO9CT5Ug6-mcXT9aWqv0M2OwZ8ZC&s" alt="">
+            <h4>Mobile</h4>
+            <p>Rs. 42000</p>
+            <button class="button">Add to cart</button>
+        </div><div class="productCard1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxtZtNmKpq1050yO9CT5Ug6-mcXT9aWqv0M2OwZ8ZC&s" alt="">
+            <h4>Mobile</h4>
+            <p>Rs. 42000</p>
+            <button class="button">Add to cart</button>
+        </div><div class="productCard1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxtZtNmKpq1050yO9CT5Ug6-mcXT9aWqv0M2OwZ8ZC&s" alt="">
+            <h4>Mobile</h4>
+            <p>Rs. 42000</p>
+            <button class="button">Add to cart</button>
+        </div><div class="productCard1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxtZtNmKpq1050yO9CT5Ug6-mcXT9aWqv0M2OwZ8ZC&s" alt="">
+            <h4>Mobile</h4>
+            <p>Rs. 42000</p>
+            <button class="button">Add to cart</button>
+        </div>
+    </div>
+</body>
+</html>
